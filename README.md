@@ -1,37 +1,54 @@
-## name of project
+## Fitness Tracker
 ### Code Badges
 build status icon
 coverage status icon
 
 ### Screenshots
-![Image1](https://raw.githubusercontent.com/nss-cohort-2014-06-07/express-template/master/docs/screenshots/one.jpg)
-![Image2](https://raw.githubusercontent.com/nss-cohort-2014-06-07/express-template/master/docs/screenshots/two.jpg)
+forthcoming
 
 ### Description
-write a description about your project
+forthcoming
 
 ### Models
 ```
-Model 1
+User
 ```
 
 ```
-Model 2
+Food
+```
+
+```
+Exercise
+```
+
+```
+Day
 ```
 
 ### Database
 ```
-Collecion 1
+User
 ```
 
 ```
-Collection 2
+Food
+```
+
+```
+Exercise
+```
+
+```
+Day
 ```
 
 ### Features
-- [x] Feature 1
-- [ ] Feature 2
-- [x] Feature 3
+- [x] Angular.js
+- [x] Node.js
+- [ ] Feature 3
+- [ ] Feature 4
+- [ ] Feature 5
 
 ### Running Tests
 ```bash
@@ -40,7 +57,9 @@ $ npm test
 ```
 
 ### Contributors
-- [Chyld Medford](https://github.com/chyld)
+- [Melanie Fryman](https://github.com/mlfryman)
+- [Daniel Roden](https://github.com/DSRoden)
+- [Dennis Stanley](https://github.com/tdsj82)
 
 ### License
 [MIT](LICENSE)

@@ -1,17 +1,17 @@
 {
   "name": "fitness-tracker",
   "version": "0.0.0",
-  "description": "The MEAN Template",
+  "description": "Fitness Tracker",
   "repository": {
     "type": "git",
     "url": "https://github.com/mlfryman/fitness-tracker"
   },
-  "author": "Melanie Fryman <melanie@frymanet.com>",
+  "authors": "Melanie Fryman <melanie@frymanet.com>, Daniel Roden <Daniel.S.Roden@gmail.com>, Dennis Stanley <stanleytd@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nss-cohort-2014-06-07/fitness-tracker/issues"
+    "url": "https://github.com/mlfryman/fitness-tracker/issues"
   },
-  "homepage": "https://github.com/nss-cohort-2014-06-07/fitness-tracker",
+  "homepage": "https://github.com/mlfryman/fitness-tracker",
   "dependencies": {
     "async": "^0.9.0",
     "bcrypt": "^0.8.0",
