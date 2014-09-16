@@ -1,0 +1,22 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"Fetch Races",
+  "description": "A twist on an old favorite. Grab your dog's favorite toy and toss it at your local dog park or in your back yard, except this time race your dog to retrieve it.",
+  "calories":100
+}
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Curious Cat Curls",
+  "description":"Tie an elastic band to a toy around your dumbells, as you curl watch your cat go crazy to catch the toy as it ascends and descends.",
+  "calories":60
+}
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"Light Abs",
+  "description":"When you get to the top of the sit-up, hold your position and crunch your abs for a few seconds while moving the flashlight beams on your wall.",
+  "calories":30
+}
+
+
+
+

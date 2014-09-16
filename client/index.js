@@ -8,6 +8,8 @@
     .when('/register', {templateUrl:'/views/register/register.html', controller:'RegisterCtrl'})
     .when('/login', {templateUrl:'/views/login/login.html', controller:'LoginCtrl'})
     .when('/logout', {templateUrl:'/views/logout/logout.html', controller:'LogoutCtrl'})
+    .when('/noms', {templateUrl:'/views/noms/noms.html', controller:'NomsCtrl'})
+    .when('/burns', {templateUrl:'/views/burns/burns.html', controller:'BurnsCtrl'})
     .otherwise({redirectTo:'/'});
 
     $httpProvider.interceptors.push('HttpInterceptor');

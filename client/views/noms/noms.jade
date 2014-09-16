@@ -1,0 +1,25 @@
+h3 Noms
+.row
+  .col-xs-3
+    h3 Add a Nom
+    form(role='form', novalidate, name='nomForm')
+      .form-group
+        label Nom
+        input.form-control#name(type='text', name='name', ng-model='nom.name', autofocus, require)
+      .form-group
+        label Calories / nom
+        input.form-control#calories(type='number', name='calories', ng-model='nom.calories', required)
+      .form-group
+        button.btn.btn-primary(ng-show='nomForm.$valid', ng-click='addNom()') Nom Nom
+  .col-xs-2
+  .col-xs-5
+    table.table
+      thead
+        tr
+          th Nom
+          th Calories / nom
+      tbody
+        tr(ng-repeat = 'n in noms')
+          td {{n.name}}
+          td {{n.calories}}
+

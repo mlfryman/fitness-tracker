@@ -1,0 +1,15 @@
+h3 Burns
+.row
+  .col-xs-12
+    table.table
+      thead
+        tr
+          th Burn Name
+          th Calories / 15 min.
+          th Description
+      tbody
+        tr(ng-repeat= 'burn in burns')
+          td {{burn.name}}
+          td {{burn.calories}}
+          td {{burn.description}}
+
