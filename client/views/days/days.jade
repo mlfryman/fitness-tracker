@@ -1,0 +1,42 @@
+.row
+  .col-xs-3
+    h4 Today's Goal
+    button.btn.btn-primary(ng-click='toggleDay()') Create Today's Goal
+    form(role='form', name='dayForm', novalidate, ng-hide='hideDay')
+      .form-group
+        label(for='date') Date
+        input.form-control#date(type='date', name='date', ng=model='day.date', required, autofocus)
+      .form-group
+        label(for='intensity') Goal Intensity
+        select.form-control#intensity(ng-model='day.intensity', name='intensity')
+          option(value='') Select Category
+          option Easy
+          option Medium
+          option Hard
+      button.btn.btn-primary(type='submit', ng-show='dayForm.$valid', ng-click='addDay()') Start Tracking!
+  .col-xs-6
+
+.row
+  .col-xs-12
+    h2 Track Today - {{day.date}}
+.row
+  .col-xs-6
+    h5 Noms
+    table.table.table-hover
+      thead
+        th Nom Name
+        th Calories
+          tbody
+            tr(ng-repeat='nom in day.noms')
+              td {{nom.name}}
+              td {{nom.calories}}
+  .col-xs-6
+    h5 Burns
+    table.table.table-hover
+      thead
+        th Burn Name
+        th Calories Burned
+          tbody
+            tr(ng-repeat='burn in day.burnss')
+              td {{burn.name}}
+              td {{burn.calories}}
